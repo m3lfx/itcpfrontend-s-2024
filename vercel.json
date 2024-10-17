@@ -1,2 +1,10 @@
-{ "rewrites": 
-[ { "source": "/(.*)", "destination": "/index.html" } ] }
+{ "rewrites": [ 
+    {
+        "source": "/:path((?!api/).*)",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/:path(api/.*)",
+        "destination": "/api"
+      }
+] }
