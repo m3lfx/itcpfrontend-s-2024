@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import MetaData from '../Layout/MetaData'
 import Loader from '../Layout/Loader'
-import SideBar from './SideBar'
+import SideBar from './SideBar';
 import { errMsg, successMsg, getToken } from '../../utils/helpers';
 import axios from 'axios';
 
