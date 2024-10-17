@@ -70,7 +70,7 @@ const Register = () => {
                 }
             }
 
-            const { data } = await axios.post(`http://localhost:4001/api/v1/register`, userData, config)
+            const { data } = await axios.post(`${import.meta.env.VITE_API}/register`, userData, config)
             console.log(data.user)
            
             setLoading(false)
