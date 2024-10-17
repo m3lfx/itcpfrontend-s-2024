@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import MetaData from '../Layout/MetaData'
 import Loader from '../Layout/Loader'
-import SideBar from './SideBar';
+import SideBar from './SideBar'
 import { getToken } from '../../utils/helpers';
 import axios from 'axios'
 import { toast } from 'react-toastify';
