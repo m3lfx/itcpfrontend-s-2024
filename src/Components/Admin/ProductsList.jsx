@@ -4,7 +4,7 @@ import { MDBDataTable } from 'mdbreact'
 
 import MetaData from '../Layout/MetaData'
 import Loader from '../Layout/Loader'
-import Sidebar from './SideBar'
+import SideBar from './SideBar'
 import { getToken } from '../../utils/helpers';
 import axios from 'axios'
 import { toast } from 'react-toastify';
@@ -142,7 +142,7 @@ const ProductsList = () => {
             <MetaData title={'All Products'} />
             <div className="row">
                 <div className="col-12 col-md-2">
-                    <Sidebar />
+                    <SideBar />
                 </div>
 
                 <div className="col-12 col-md-10">

@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { MDBDataTable } from 'mdbreact'
 import MetaData from '../Layout/MetaData'
 import Loader from '../Layout/Loader'
-import Sidebar from './SideBar'
+import SideBar from './SideBar'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { getToken } from '../../utils/helpers'
@@ -124,7 +124,7 @@ const OrdersList = () => {
             <MetaData title={'All Orders'} />
             <div className="row">
                 <div className="col-12 col-md-2">
-                    <Sidebar />
+                    <SideBar />
                 </div>
                 <div className="col-12 col-md-10">
                     <>

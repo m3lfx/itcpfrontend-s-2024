@@ -1,7 +1,7 @@
 import  {  useState, useEffect } from 'react'
 import { useNavigate, useParams } from "react-router-dom";
 import MetaData from '../Layout/MetaData'
-import Sidebar from './Sidebar';
+import SideBar from './SideBar';
 
 import 'react-toastify/dist/ReactToastify.css';
 import { errMsg, successMsg, getToken } from '../../utils/helpers';
@@ -81,7 +81,7 @@ const UpdateUser = () => {
             <MetaData title={`Update User`} />
             <div className="row">
                 <div className="col-12 col-md-2">
-                    <Sidebar />
+                    <SideBar />
                 </div>
                 <div className="col-12 col-md-10">
                     <div className="row wrapper">

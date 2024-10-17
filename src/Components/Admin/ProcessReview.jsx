@@ -3,7 +3,7 @@ import { MDBDataTable } from 'mdbreact'
 
 import MetaData from '../Layout/MetaData'
 
-import Sidebar from './SideBar'
+import SideBar from './SideBar'
 import Toast from '../Layout/Toast'
 import Swal from 'sweetalert2'
 import { getUser, getToken, } from '../../utils/helpers'
@@ -139,7 +139,7 @@ const ProductReviews = () => {
             <MetaData title={'Product Reviews'} />
             <div className="row">
                 <div className="col-12 col-md-2">
-                    <Sidebar />
+                    <SideBar />
                 </div>
                 <div className="col-12 col-md-10">
                     <>

@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import MetaData from '../Layout/MetaData'
-import Sidebar from './SideBar'
+import SideBar from './SideBar';
 
 import { useParams, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
@@ -140,7 +140,7 @@ const UpdateProduct = () => {
             <MetaData title={'Update Product'} />
             <div className="row">
                 <div className="col-12 col-md-2">
-                    <Sidebar />
+                    <SideBar />
                 </div>
                 <div className="col-12 col-md-10">
                     <>

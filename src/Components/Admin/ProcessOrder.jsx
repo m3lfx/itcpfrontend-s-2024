@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react'
 import { Link, useParams, useNavigate,  } from 'react-router-dom'
 import MetaData from '../Layout/MetaData'
 import Loader from '../Layout/Loader'
-import Sidebar from './SideBar'
+import SideBar from './SideBar'
 
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -89,7 +89,7 @@ const ProcessOrder = () => {
             <MetaData title={`Process Order # ${order && order._id}`} />
             <div className="row">
                 <div className="col-12 col-md-2">
-                    <Sidebar />
+                    <SideBar />
                 </div>
                 <div className="col-12 col-md-10">
                     <>
